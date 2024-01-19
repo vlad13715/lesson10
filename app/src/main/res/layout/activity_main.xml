@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TvCountercValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="0"
+        android:textColor="@color/violet"
+        android:textSize="100dp"
+        />
+
+    <Button
+        android:id="@+id/btnclack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Уменьшить"
+        android:layout_gravity="center|bottom"/>
+
+    <Button
+        android:id="@+id/btnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="91dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/red"
+        android:text="Start"
+        android:textColor="@color/black"
+
+
+        />
+</FrameLayout>
+
+    <!-- view( элемент визуала,типа текст,картинка,кнопка)
+    View Group(элемент, который представляет для создаия UI элементов) -->
